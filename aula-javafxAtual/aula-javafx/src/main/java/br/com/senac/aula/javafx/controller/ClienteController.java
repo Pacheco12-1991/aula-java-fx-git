@@ -56,7 +56,7 @@ public class ClienteController {
             }
         });
     }
-
+    //Alteração primeiro commit
     public void executarOk(){
         /*
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
