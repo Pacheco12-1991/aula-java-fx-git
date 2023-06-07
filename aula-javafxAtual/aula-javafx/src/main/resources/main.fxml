@@ -23,7 +23,7 @@
               <columns>
                 <TableColumn fx:id="colunaNome" prefWidth="75.0" text="Nome" />
                 <TableColumn fx:id="colunaDocumento" prefWidth="369.0" text="Documento" />
-                  <TableColumn prefWidth="75.0" text="Column X" />
+                  <TableColumn prefWidth="75.0" text="RG" />
               </columns>
             </TableView>
          </children>
