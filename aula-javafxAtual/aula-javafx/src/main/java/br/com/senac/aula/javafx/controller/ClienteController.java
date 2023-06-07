@@ -76,7 +76,7 @@ public class ClienteController {
         }else {
             // inclui novo registro
             //tabelaClientes.getItems().add(cli);
-            if (ClienteService.buscarClienteByDocumento(cli.getDocumento())) {
+                if (ClienteService.buscarClienteByDocumento(cli.getDocumento())) {
                 Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("ALerta");
                 alert.setHeaderText(" Documento: " + documento.getText() + " já existe na base");
