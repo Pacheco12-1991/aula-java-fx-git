@@ -34,6 +34,9 @@ public class ClienteController {
     @FXML
     private TableColumn<Cliente, String> colunaDocumento;
 
+    private TableColumn<Cliente, String> colunaRg;
+    //Teste
+
     private int index = -1;
 
 
